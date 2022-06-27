@@ -7,10 +7,12 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const name= "Shohrab Rustam"
 const companyName= "Mpoket"
+const date= new Date();
 root.render(
     <div>
         <p>{`My name is ${name} .`}</p>
         <p>{`My Company name is ${companyName} .`}</p>
+        <p>{`Today Date is ${date}`}</p>
     </div>
 );
 
