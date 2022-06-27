@@ -6,12 +6,14 @@ import './index.css';
 // ReactDOM.render(<h1>Hello World</h1>,document.getElementById('root')); 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- <h1>Hello World !!!</h1>
+    <div>
+
+        <h1>Heading First !!</h1>
+        <h2>Heading Second !!</h2>
+        <p>This is the Paragraph !!</p>
+
+    </div>
 );
-var heading = document.createElement('p'); 
-heading.innerHTML = 'This is the Child of the Root1 using pure JavaScript';
-console.log(heading);
-document.getElementById("root1").appendChild(heading);
 
 
 // JSX -> JavaScript Extension  or JavaScript XML  
