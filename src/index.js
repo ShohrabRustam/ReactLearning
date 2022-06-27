@@ -8,6 +8,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <h1>Hello World !!!</h1>
 );
+var heading = document.createElement('p'); 
+heading.innerHTML = 'This is the Child of the Root1 using pure JavaScript';
+console.log(heading);
+document.getElementById("root1").appendChild(heading);
 
 
 // JSX -> JavaScript Extension  or JavaScript XML  

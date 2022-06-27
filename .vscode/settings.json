@@ -20,5 +20,6 @@
         "**/*_adt.pvs": false,
         "**/*.log": true,
         "**/.vscode": true
-    }
+    },
+    "editor.mouseWheelZoom": true
 }
