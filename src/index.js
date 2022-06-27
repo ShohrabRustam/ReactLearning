@@ -5,14 +5,13 @@ import './index.css';
 // var ReactDOM = new require('react-dom');
 // ReactDOM.render(<h1>Hello World</h1>,document.getElementById('root')); 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const name= "Shohrab Rustam"
+const companyName= "Mpoket"
 root.render(
-    <React.Fragment>
-
-        <h1>Heading First !!</h1>
-        <h2>Heading Second !!</h2>
-        <p>This is the Paragraph !!</p>
-
-    </React.Fragment>
+    <div>
+        <p>My name is <strong>{name}</strong> .</p>
+        <p>My Company name is <strong>{companyName}</strong> .</p>
+    </div>
 );
 
 
