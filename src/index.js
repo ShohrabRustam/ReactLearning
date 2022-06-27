@@ -5,18 +5,35 @@ import './index.css';
 // var ReactDOM = new require('react-dom');
 // ReactDOM.render(<h1>Hello World</h1>,document.getElementById('root')); 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const name= "Shohrab Rustam"
-const companyName= "Mpoket"
-const date= new Date().toDateString();
-const time= new Date().toLocaleTimeString();
+const time= new Date(/* 2020, 3,2,8 */);
+const cssStyle={
+    color:'green'
+}
+const h = time.getHours();
+// console.log(h);
+var color = ''; 
+var greeting = '' 
+if(h>=5&& h<=11){
+    greeting= "Good Morning"
+    cssStyle.color = 'green'
+}
+else if(h>=12 &&    h<=15)  {
+    greeting= "Good Afternoon"
+    cssStyle.color = 'blue'
+
+}else if(h>=16 && h<=18){
+    greeting= "Good Evening"
+    cssStyle.color = 'red'
+
+}else{
+    greeting= "Good Night"
+    cssStyle.color = 'yellow'
+
+}
 
 root.render(
     <div>
-        <p>{`My name is ${name} .`}</p>
-        <p>{`My Company name is ${companyName} .`}</p>
-        <p>{`Today Date is ${date}`}</p>
-        <p>{`Curret Time is ${time}`}</p>
-        
+    <h1>Hello Sir, <span style={cssStyle}> {greeting} </span></h1>
     </div>
 );
 
