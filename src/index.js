@@ -6,13 +6,13 @@ import './index.css';
 // ReactDOM.render(<h1>Hello World</h1>,document.getElementById('root')); 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <ReactDOM.Fragment>
+    <React.Fragment>
 
         <h1>Heading First !!</h1>
         <h2>Heading Second !!</h2>
         <p>This is the Paragraph !!</p>
 
-    </ReactDOM.Fragment>
+    </React.Fragment>
 );
 
 
