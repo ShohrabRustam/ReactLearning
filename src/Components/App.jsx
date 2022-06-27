@@ -5,13 +5,7 @@ import Para from './Para';
 
 
 function App() {
-    return (
-        <div>
-            <Heading />
-            <Para />
-            <Footer />
-        </div>
-    );
+    return ( <div><Heading /><Para /><Footer /></div>);
 }
 
 export default App;
