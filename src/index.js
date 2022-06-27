@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Heading from './Components/Heading';
-import Para from './Components/Para';
+import App from './Components/App';
 // var React = new require('react');
 // var ReactDOM = new require('react-dom');
 // ReactDOM.render(<h1>Hello World</h1>,document.getElementById('root')); 
@@ -35,9 +34,7 @@ else if (h >= 12 && h <= 15) {
 
 root.render(
     <div>
-        <Heading></Heading>,
-        <Para></Para>,
-        <h1>Hello Sir, <span style={cssStyle}> {greeting} </span></h1>
+        <App />
     </div>
 
 );
