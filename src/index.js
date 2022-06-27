@@ -9,8 +9,8 @@ const name= "Shohrab Rustam"
 const companyName= "Mpoket"
 root.render(
     <div>
-        <p>My name is <strong>{name}</strong> .</p>
-        <p>My Company name is <strong>{companyName}</strong> .</p>
+        <p>{`My name is ${name} .`}</p>
+        <p>{`My Company name is ${companyName} .`}</p>
     </div>
 );
 
