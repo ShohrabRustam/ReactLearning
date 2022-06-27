@@ -8,11 +8,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const name= "Shohrab Rustam"
 const companyName= "Mpoket"
 const date= new Date().toDateString();
+const time= new Date().toLocaleTimeString();
+
 root.render(
     <div>
         <p>{`My name is ${name} .`}</p>
         <p>{`My Company name is ${companyName} .`}</p>
         <p>{`Today Date is ${date}`}</p>
+        <p>{`Curret Time is ${time}`}</p>
+        
     </div>
 );
 
