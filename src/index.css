@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img{
+width:300px;
+border: 2px double black;
+}
+.cards{
+  border: 1px solid grey;
+  border-width: thin;
+  margin: 50px 50px;
+  width:fit-content;
+  padding: 5px;
+  border-radius: 10px;
+  background-color:beige;
+
+}
+img:hover{
+  background: #60c5a8;
+  border-radius: 5%;
+
+}
+a button:hover{
+  background: #60c5a8;
+  color: #fff;
+  background-color: #025784 !important;
+  border: none;
+  text-decoration: none;
+
+
+}
+
+.cards:hover{
+  box-shadow: rgba(255, 172, 28, 0.199) -10px 10px, rgba(255, 172, 28, 0.19) -20px 20px ;
+
+}
+ 
