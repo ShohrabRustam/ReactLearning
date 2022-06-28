@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgoldenrodyellow;
+  
 }
 
 code {
@@ -16,6 +18,7 @@ img{
 width:300px;
 border: 2px double black;
 }
+
 .cards{
   border: 1px solid grey;
   border-width: thin;
@@ -24,17 +27,19 @@ border: 2px double black;
   padding: 5px;
   border-radius: 10px;
   background-color:beige;
-
+  height:fit-content;
 }
 img:hover{
-  background: #60c5a8;
-  border-radius: 5%;
+  margin:2px 2px;
+text-align: center;
+height:fit-content;
+padding: 2px 2px;
 
 }
 a button:hover{
-  background: #60c5a8;
+  background: #13f5b5;
   color: #fff;
-  background-color: #025784 !important;
+  background-color: #1e0284 !important;
   border: none;
   text-decoration: none;
 
@@ -42,7 +47,14 @@ a button:hover{
 }
 
 .cards:hover{
-  box-shadow: rgba(255, 172, 28, 0.199) -10px 10px, rgba(255, 172, 28, 0.19) -20px 20px ;
+  box-shadow: rgba(5, 9, 248, 0.5) -10px 10px, rgba(255, 165, 9, 0.5) -20px 20px ;
 
 }
  
+.Heading_title{
+margin:20px 0px;
+text-align: center;
+color: rgb(255, 166, 0);
+background-color: darkblue;
+height:fit-content;
+}
